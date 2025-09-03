@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/sidebar"
+    >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:background="#DD3311"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/sidebarOpenListIcon"
+            android:src="@drawable/open_list_icon"
+            android:contentDescription="sidebarOpenListIcon"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="0dp"/>
+
+        <TextView
+            android:id="@+id/sidebarOption0"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/books" />
+
+        <TextView
+            android:id="@+id/sidebarOption1"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/story" />
+
+        <TextView
+            android:id="@+id/sidebarOption2"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="15dp"
+            android:text="@string/statistics" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone_excersize_2</string>
+    <string name="books">Βιβλία</string>
+    <string name="story">Ιστορία</string>
+    <string name="statistics">Στατιστικά</string>
+    <string name="numTimes">Αριθμός φορών που έχουν παιχτεί ιστορίες:</string>
+    <string name="favourite">πιο αγαπημένη επιλογή:</string>
+    <string name="first">Πρώτη</string>
+    <string name="second">Δεύτερη</string>
+    <string name="third">Τρίτη</string>
+</resources>

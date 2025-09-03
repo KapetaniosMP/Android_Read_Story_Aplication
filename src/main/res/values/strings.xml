@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Phone_excersize_2</string>
+    <string name="books">Books</string>
+    <string name="story">Story</string>
+    <string name="statistics">Statistics</string>
+    <string name="numTimes">Number of times stories has been played:</string>
+    <string name="favourite">most favourite choice:</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+</resources>

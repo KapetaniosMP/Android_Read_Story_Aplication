@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone_excersize_2</string>
+    <string name="statistics">Statistiche</string>
+    <string name="numTimes">Numero di volte in cui le storie sono state riprodotte:</string>
+    <string name="books">Libri</string>
+    <string name="story">Storia</string>
+    <string name="favourite">scelta preferita:</string>
+    <string name="first">Prima</string>
+    <string name="second">Seconda</string>
+    <string name="third">Terza</string>
+</resources>
